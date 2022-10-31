@@ -30,6 +30,9 @@ implementation('com.github.fiftyonemoon:RapidX:1.0.0') {
     //exclude module: 'ui' (for common use)
 }
 ```
-### Note for Scaling
+### Scaling Note
 - Create your design with default 1080x1920 screen size.
 - For better experience hide navigation and status/notification bar.
+
+### Future
+- This library is under development. More things will be added in future.
