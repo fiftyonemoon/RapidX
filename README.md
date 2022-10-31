@@ -22,11 +22,11 @@ allprojects {
 ```
 
 ```groovy
-To reduce an app size exclude unused modules from library.
+//Reduce an app size by excluding unused modules from library.
 
 implementation('com.github.fiftyonemoon:RapidX:1.0.0') {
-    //exclude module: 'providers'
-    //exclude module: 'views'
-    //exclude module: 'ui'
+    //exclude module: 'provider' (for extarnal use)
+    //exclude module: 'views' (for scaling)
+    //exclude module: 'ui' (for common use)
 }
 ```
