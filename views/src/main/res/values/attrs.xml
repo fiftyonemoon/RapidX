@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="RapidView">
+        <!-- Set true if scale all children in parent view.
+             Set false if only scale parent view. -->
+        <attr name="scaleChildren" format="boolean" />
+        <!-- Set true if measure margin according to device width and height.
+             Set false will ignore measure margin of the view. -->
+        <attr name="measureMargin" format="boolean" />
+        <!-- Set true if measure padding according to device width and height.
+             Set false will ignore measure padding of the view. -->
+        <attr name="measurePadding" format="boolean" />
+        <!-- Attributes set to scale view without giving width and height. -->
+        <attr name="autoScale">
+            <!-- This flag will scale only parent. -->
+            <flag name="parent" value="0x271201" />
+            <!-- This flag will scale all child views. -->
+            <flag name="children" value="0x271202" />
+        </attr>
+        <!-- Set true will scale view.
+             Set false will not scale view. -->
+        <attr name="scale" format="boolean" />
+        <!-- This attr will measure width and height of view
+             with value as mentioned below. -->
+        <attr name="measureWith" format="integer">
+            <!-- It will measure width and height of view according device width and height. -->
+            <enum name="none" value="0" />
+            <!-- It will measure width and height of view according device width. -->
+            <enum name="width" value="-1" />
+            <!-- It will measure width and height of view according device height. -->
+            <enum name="height" value="-2" />
+        </attr>
+    </declare-styleable>
+
+    <!-- The style set of RapidConstraintLayout.-->
+    <declare-styleable name="RapidConstraintLayout">
+        <attr name="scaleChildren" />
+        <attr name="measureMargin" />
+        <attr name="measurePadding" />
+        <attr name="measureWith" />
+        <attr name="autoScale" />
+    </declare-styleable>
+
+    <!-- The style set of RapidFrameLayout.-->
+    <declare-styleable name="RapidFrameLayout">
+        <attr name="scaleChildren" />
+        <attr name="measureMargin" />
+        <attr name="measurePadding" />
+        <attr name="measureWith" />
+        <attr name="autoScale" />
+    </declare-styleable>
+
+    <!-- The style set of RapidLinearLayout.-->
+    <declare-styleable name="RapidLinearLayout">
+        <attr name="scaleChildren" />
+        <attr name="measureMargin" />
+        <attr name="measurePadding" />
+        <attr name="measureWith" />
+        <attr name="autoScale" />
+    </declare-styleable>
+
+    <!-- The style set of RapidRelativeLayout.-->
+    <declare-styleable name="RapidRelativeLayout">
+        <attr name="scaleChildren" />
+        <attr name="measureMargin" />
+        <attr name="measurePadding" />
+        <attr name="measureWith" />
+        <attr name="autoScale" />
+    </declare-styleable>
+
+    <!-- The style set of RapidImageView.-->
+    <declare-styleable name="RapidImageView">
+        <attr name="measureMargin" />
+        <attr name="measurePadding" />
+        <attr name="measureWith" />
+        <attr name="autoScale" />
+    </declare-styleable>
+
+    <!-- The style set for RapidConstraintLayout children.-->
+    <declare-styleable name="RapidConstraintLayout_Layout">
+        <attr name="scale" />
+    </declare-styleable>
+
+    <!-- The style set for RapidFrameLayout children.-->
+    <declare-styleable name="RapidFrameLayout_Layout">
+        <attr name="scale" />
+    </declare-styleable>
+
+    <!-- The style set for RapidLinearLayout children.-->
+    <declare-styleable name="RapidLinearLayout_Layout">
+        <attr name="scale" />
+    </declare-styleable>
+
+    <!-- The style set for RapidRelativeLayout children.-->
+    <declare-styleable name="RapidRelativeLayout_Layout">
+        <attr name="scale" />
+    </declare-styleable>
+
+</resources>

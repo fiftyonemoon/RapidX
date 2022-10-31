@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="please_wait">Please wait…</string>
+    <string name="cancel">Cancel</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="delete">Delete</string>
+    <string name="exit">Exit</string>
+    <string name="save">Save</string>
+    <string name="are_you_sure_delete">Are you sure want to delete?</string>
+    <string name="are_you_sure_exit">Are you sure want to exit?</string>
+    <string name="are_you_sure_save">Are you sure want to save?</string>
+    <string name="choose_app">Select app</string>
+</resources>
