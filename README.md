@@ -7,9 +7,9 @@
    - Refer [`AutoRapidConstraintLayout`](app/src/main/res/layout/rapid_constraint_layout_auto.xml).
 
 ## Contains
-- Providers (Media, Files, Directory, Dialogs).
-- Views (Hybrid RapidViews based on Originals).
-- UI (Global Methods).
+- [`Provider`](provider/src/main) (Media, Files, Directory, Dialogs).
+- [`Views`](views/src/main) (Hybrid RapidViews based on Originals).
+- [`UI`](ui/src/main) (Global Methods).
 
 ## Implementation
 
