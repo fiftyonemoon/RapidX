@@ -7,8 +7,25 @@
    - Refer [`AutoRapidConstraintLayout`](app/src/main/res/layout/rapid_constraint_layout_auto.xml).
 
 ## Contains
-- Global Methods.
-- Media Providers.
-- Manage Files/Directories.
-- Scale design/views(XML) automatically with RapidViews.
- 
+- Providers (Media, Files, Directory, Dialogs).
+- Views (Hybrid RapidViews based on Originals).
+- UI (Global Methods).
+
+## Implementation
+
+```groovy
+allprojects {
+	repositories {
+		maven { url 'https://jitpack.io' }
+	}
+}
+```
+
+```groovy
+To reduce an app size exclude unused modules from library.
+implementation('com.github.fiftyonemoon:RapidX:1.0.0') {
+    //exclude module: 'providers'
+    //exclude module: 'views'
+    //exclude module: 'ui'
+}
+```
