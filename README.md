@@ -1,4 +1,4 @@
-# RapidX
+# RapidX [![](https://jitpack.io/v/fiftyonemoon/RapidX.svg)](https://jitpack.io/#fiftyonemoon/RapidX)
  A powerful android library which can be make an app development easy.
  
 ## What's New
