@@ -30,3 +30,6 @@ implementation('com.github.fiftyonemoon:RapidX:1.0.0') {
     //exclude module: 'ui' (for common use)
 }
 ```
+## Scale Views
+- Create your design with default 1080x1920 screen size.
+- For better experience hide navigation and status/notification bar.
