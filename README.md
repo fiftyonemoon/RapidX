@@ -4,7 +4,7 @@
 ## What's New
 - Introducing Auto Scale Views.
   Now XML view can scale automatically without providing width and height.
-  Refer [`AutoRapidConstraintLayout`](rapidx/app/src/main/res/layout/rapid_constraint_layout_auto.xml).
+  Refer [`AutoRapidConstraintLayout`](app/src/main/res/layout/rapid_constraint_layout_auto.xml).
 
 ## Contains
 - Global Methods.
