@@ -21,7 +21,6 @@ Provider
 				</summary>
 			</details>
 		</li>
-	
 	</ul>
 </details>
 - [`Provider`](provider/src/main/java/com/fom/rapidx/provider) - Media, Files, Directory, Dialogs.
