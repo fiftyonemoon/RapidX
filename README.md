@@ -12,7 +12,8 @@
 <a href="https://github.com/fiftyonemoon/RapidX/tree/main/provider/src/main/java/com/fom/rapidx/provider">
 Provider
 </summary>
-	<ul><li>
+	<ul>
+	<li>
 		<details>
 			<summary>
 			<a href="https://github.com/fiftyonemoon/RapidX/blob/main/provider/src/main/java/com/fom/rapidx/provider/Dialogs.java">						Dialogs
@@ -30,7 +31,8 @@ Provider
 			</li>
 			</ul>
 		</details>
-	</li></ul>
+	</li>
+	</ul>
 </details>
 	
 - [`Provider`](provider/src/main/java/com/fom/rapidx/provider) - Media, Files, Directory, Dialogs.
