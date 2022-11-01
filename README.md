@@ -1,12 +1,26 @@
-# RapidX [![](https://jitpack.io/v/fiftyonemoon/RapidX.svg)](https://jitpack.io/#fiftyonemoon/RapidX)
+# RapidX
  A powerful android library which can be make an app development easy.
  
-## What's New
+## What's New [![](https://jitpack.io/v/fiftyonemoon/RapidX.svg)](https://jitpack.io/#fiftyonemoon/RapidX)
 - Introducing Auto Scale Views.
    - Now XML view can scale automatically without providing width and height.
    - Refer [`AutoRapidConstraintLayout`](app/src/main/res/layout/rapid_constraint_layout_auto.xml).
 
 ## Contains
+<details>
+<summary>
+<a href="https://github.com/fiftyonemoon/RapidX/tree/main/provider/src/main/java/com/fom/rapidx/provider">
+Provider
+</summary>
+<ul>
+ 	<li>
+	<a href="https://github.com/fiftyonemoon/RapidX/tree/main/provider/src/main/java/com/fom/rapidx/provider/Dialogs.java" >
+	Dialogs
+	</a>: Show Alert/Progress dialog at runtime. 
+	</li>
+	<li>
+</ul>
+</details>
 - [`Provider`](provider/src/main/java/com/fom/rapidx/provider) - Media, Files, Directory, Dialogs.
 - [`Views`](views/src/main/java/com/fom/rapidx/views) - Hybrid RapidViews based on Originals.
 - [`UI`](ui/src/main/java/com/fom/rapidx/ui) - Global Methods.
