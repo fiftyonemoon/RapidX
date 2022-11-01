@@ -23,6 +23,11 @@ Provider
 			Alert
 			</a>: Show runtime alert dialog. Available dialogs Save, Exit and Delete.	
 			</li>
+				<li>
+			<a href="https://github.com/fiftyonemoon/RapidX/blob/1968d6a1083a11baa9253c21da2f56f13af58816/provider/src/main/java/com/fom/rapidx/provider/Dialogs.java#L128">
+			Progress
+			</a>: Show runtime progress dialog. This dialog will created on global level so, can access it from anywhere.
+			</li>
 			</ul>
 		</details>
 	</li></ul>
