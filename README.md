@@ -34,6 +34,7 @@ Provider
 		</details>
 	</li></ul>
 </details>
+	
 - [`Provider`](provider/src/main/java/com/fom/rapidx/provider) - Media, Files, Directory, Dialogs.
 - [`Views`](views/src/main/java/com/fom/rapidx/views) - Hybrid RapidViews based on Originals.
 - [`UI`](ui/src/main/java/com/fom/rapidx/ui) - Global Methods.
