@@ -14,11 +14,12 @@ Provider
 </summary>
 <ul>
  	<li>
-	<a href="https://github.com/fiftyonemoon/RapidX/tree/main/provider/src/main/java/com/fom/rapidx/provider/Dialogs.java" >
-	Dialogs
-	</a>: Show Alert/Progress dialog at runtime. 
+	<summary>
+<a href="https://github.com/fiftyonemoon/RapidX/tree/main/provider/src/main/java/com/fom/rapidx/provider">
+Dialogs
+</summary>
 	</li>
-	<li>
+	
 </ul>
 </details>
 - [`Provider`](provider/src/main/java/com/fom/rapidx/provider) - Media, Files, Directory, Dialogs.
