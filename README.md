@@ -12,16 +12,18 @@
 <a href="https://github.com/fiftyonemoon/RapidX/tree/main/provider/src/main/java/com/fom/rapidx/provider">
 Provider
 </summary>
-	<ul>
-		<li>
-			<details>
-				<summary>
-				<a href="https://github.com/fiftyonemoon/RapidX/tree/main/provider/src/main/java/com/fom/rapidx/provider">
-				Dialogs
-				</summary>
-			</details>
-		</li>
-	</ul>
+	<ul><li>
+		<details>
+			<summary>
+			<a href="https://github.com/fiftyonemoon/RapidX/blob/main/provider/src/main/java/com/fom/rapidx/provider/Dialogs.java">						Dialogs
+			</summary>
+			<ul><li>
+			<a href="https://github.com/fiftyonemoon/RapidX/blob/1968d6a1083a11baa9253c21da2f56f13af58816/provider/src/main/java/com/fom/rapidx/provider/Dialogs.java#L32" >
+			AlertDialog
+			</a>: Show runtime alert dialog. Available dialogs Save, Exit and Delete.	
+			</li></ul>
+		</details>
+	</li></ul>
 </details>
 - [`Provider`](provider/src/main/java/com/fom/rapidx/provider) - Media, Files, Directory, Dialogs.
 - [`Views`](views/src/main/java/com/fom/rapidx/views) - Hybrid RapidViews based on Originals.
