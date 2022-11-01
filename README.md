@@ -22,8 +22,7 @@ Provider
 			<a href="https://github.com/fiftyonemoon/RapidX/blob/1968d6a1083a11baa9253c21da2f56f13af58816/provider/src/main/java/com/fom/rapidx/provider/Dialogs.java#L32">
 			Alert
 			</a>: Show runtime alert dialog. Available dialogs Save, Exit and Delete.	
-			</li>	
-			
+			</li>
 			</ul>
 		</details>
 	</li></ul>
