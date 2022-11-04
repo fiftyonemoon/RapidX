@@ -9,7 +9,7 @@
 ## Contains
 <details>
 <summary>
-<a href="https://github.com/fiftyonemoon/RapidX/tree/main/provider/src/main/java/com/fom/rapidx/provider">Provider</a>: Media, Files, Directory, Dialogs.
+<a href="https://github.com/fiftyonemoon/RapidX/tree/main/provider/src/main/java/com/fom/rapidx/provider">Provider</a> : Dialogs, Directory, Files, Media.
 </summary>
 	<ul>
 	<li>
@@ -45,6 +45,24 @@
 	<li>
 		<details>
 			<summary>
+			<a href="https://github.com/fiftyonemoon/RapidX/blob/main/provider/src/main/java/com/fom/rapidx/provider/Files.java">Files</a>
+			</summary>
+			<ul>
+			<li>
+			<a href="https://github.com/fiftyonemoon/RapidX/blob/1968d6a1083a11baa9253c21da2f56f13af58816/provider/src/main/java/com/fom/rapidx/provider/Files.java#L53">Editor
+			</a>: Copy, Move, Delete, Rename and More.	
+			</li>
+			<li>
+			<a href="https://github.com/fiftyonemoon/RapidX/blob/1968d6a1083a11baa9253c21da2f56f13af58816/provider/src/main/java/com/fom/rapidx/provider/Files.java#L228">
+			Utils
+			</a>: Share/Open File, Mimetype, Unique filename generator and More.
+			</li>
+			</ul>
+		</details>
+	</li>
+	<li>
+		<details>
+			<summary>
 			<a href="https://github.com/fiftyonemoon/RapidX/blob/main/provider/src/main/java/com/fom/rapidx/provider/Media.java">Media</a>
 			</summary>
 			<ul>
@@ -61,24 +79,6 @@
 			<a href="https://github.com/fiftyonemoon/RapidX/blob/1968d6a1083a11baa9253c21da2f56f13af58816/provider/src/main/java/com/fom/rapidx/provider/Media.java#L340">
 			Audios
 			</a>: To fetch device audios.
-			</li>
-			</ul>
-		</details>
-	</li>
-	<li>
-		<details>
-			<summary>
-			<a href="https://github.com/fiftyonemoon/RapidX/blob/main/provider/src/main/java/com/fom/rapidx/provider/Files.java">Files</a>
-			</summary>
-			<ul>
-			<li>
-			<a href="https://github.com/fiftyonemoon/RapidX/blob/1968d6a1083a11baa9253c21da2f56f13af58816/provider/src/main/java/com/fom/rapidx/provider/Files.java#L53">Editor
-			</a>: Copy, Move, Delete, Rename and More.	
-			</li>
-			<li>
-			<a href="https://github.com/fiftyonemoon/RapidX/blob/1968d6a1083a11baa9253c21da2f56f13af58816/provider/src/main/java/com/fom/rapidx/provider/Files.java#L228">
-			Utils
-			</a>: Share/Open File, Mimetype, Unique filename generator and More.
 			</li>
 			</ul>
 		</details>
