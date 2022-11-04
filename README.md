@@ -88,34 +88,34 @@
 
 <details>
 <summary>
-<a href="https://github.com/fiftyonemoon/RapidX/tree/main/provider/src/main/java/com/fom/rapidx/views">Views</a> : 5 Hybrid RapidViews based on Originals.
+<a href="https://github.com/fiftyonemoon/RapidX/tree/main/views/src/main/java/com/fom/rapidx/views">Views</a> : 5 Hybrid RapidViews based on Originals.
 </summary>
 	<ul>
 	<li>
-	<a href="https://github.com/fiftyonemoon/RapidX/blob/main/provider/src/main/java/com/fom/rapidx/views/RapidConstraintLayout.java">RapidConstraintLayout</a>
+	<a href="https://github.com/fiftyonemoon/RapidX/blob/main/views/src/main/java/com/fom/rapidx/views/RapidConstraintLayout.java">RapidConstraintLayout</a>
 	</li>
 	<li>
-	<a href="https://github.com/fiftyonemoon/RapidX/blob/main/provider/src/main/java/com/fom/rapidx/views/RapidRelativeLayout.java">RapidRelativeLayout</a>
+	<a href="https://github.com/fiftyonemoon/RapidX/blob/main/views/src/main/java/com/fom/rapidx/views/RapidRelativeLayout.java">RapidRelativeLayout</a>
 	</li>
 	<li>
-	<a href="https://github.com/fiftyonemoon/RapidX/blob/main/provider/src/main/java/com/fom/rapidx/views/RapidLinearLayout.java">RapidLinearLayout</a>
+	<a href="https://github.com/fiftyonemoon/RapidX/blob/main/views/src/main/java/com/fom/rapidx/views/RapidLinearLayout.java">RapidLinearLayout</a>
 	</li>
 	<li>
-	<a href="https://github.com/fiftyonemoon/RapidX/blob/main/provider/src/main/java/com/fom/rapidx/views/RapidFrameLayout.java">RapidFrameLayout</a>
+	<a href="https://github.com/fiftyonemoon/RapidX/blob/main/views/src/main/java/com/fom/rapidx/views/RapidFrameLayout.java">RapidFrameLayout</a>
 	</li>
 	<li>
-	<a href="https://github.com/fiftyonemoon/RapidX/blob/main/provider/src/main/java/com/fom/rapidx/views/RapidImageView.java">RapidImageView</a>
+	<a href="https://github.com/fiftyonemoon/RapidX/blob/main/views/src/main/java/com/fom/rapidx/views/RapidImageView.java">RapidImageView</a>
 	</li>
 	</ul>
 </details>
 
 <details>
 <summary>
-<a href="https://github.com/fiftyonemoon/RapidX/tree/main/provider/src/main/java/com/fom/rapidx/ui">UI</a> : Global Methods.
+<a href="https://github.com/fiftyonemoon/RapidX/tree/main/ui/src/main/java/com/fom/rapidx/ui">UI</a> : Global Methods.
 </summary>
 	<ul>
 	<li>
-	<a href="https://github.com/fiftyonemoon/RapidX/blob/main/provider/src/main/java/com/fom/rapidx/ui/UI.java">UI</a> : Collection of UI related functions.
+	<a href="https://github.com/fiftyonemoon/RapidX/blob/main/ui/src/main/java/com/fom/rapidx/ui/UI.java">UI</a> : Collection of UI related functions.
 	</li>
 	</ul>
 </details>
