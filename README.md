@@ -86,6 +86,21 @@
 	</ul>
 </details>
 
+<details>
+<summary>
+<a href="https://github.com/fiftyonemoon/RapidX/tree/main/provider/src/main/java/com/fom/rapidx/views">Views</a> : 5 Hybrid RapidViews based on Originals.
+</summary>
+	<ul>
+	<li>
+	<details>
+			<summary>
+			<a href="https://github.com/fiftyonemoon/RapidX/blob/main/provider/src/main/java/com/fom/rapidx/provider/RapidConstraintView.java">RapidConstraintView</a>
+			</summary>
+		</details>
+	</li>
+	</ul>
+</details>
+
 - [`Provider`](provider/src/main/java/com/fom/rapidx/provider) - Media, Files, Directory, Dialogs.
 - [`Views`](views/src/main/java/com/fom/rapidx/views) - Hybrid RapidViews based on Originals.
 - [`UI`](ui/src/main/java/com/fom/rapidx/ui) - Global Methods.
