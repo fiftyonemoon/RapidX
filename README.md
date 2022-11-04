@@ -13,6 +13,10 @@
 </summary>
 	<ul>
 	<li>
+		<a href="https://github.com/fiftyonemoon/RapidX/blob/1968d6a1083a11baa9253c21da2f56f13af58816/provider/src/main/java/com/fom/rapidx/provider/Directory.java">Directory
+		</a>: Create folder and files with contentResolver.
+	</li>
+	<li>
 		<details>
 			<summary>
 			<a href="https://github.com/fiftyonemoon/RapidX/blob/main/provider/src/main/java/com/fom/rapidx/provider/Dialogs.java">Dialogs</a>
@@ -31,11 +35,31 @@
 		</details>
 	</li>
 	<li>
-		<a href="https://github.com/fiftyonemoon/RapidX/blob/1968d6a1083a11baa9253c21da2f56f13af58816/provider/src/main/java/com/fom/rapidx/provider/Dialogs.java#L32">Directory
-		</a>: Create folder and files with contentResolver.
+		<details>
+			<summary>
+			<a href="https://github.com/fiftyonemoon/RapidX/blob/main/provider/src/main/java/com/fom/rapidx/provider/Media.java">Media</a>
+			</summary>
+			<ul>
+			<li>
+			<a href="https://github.com/fiftyonemoon/RapidX/blob/1968d6a1083a11baa9253c21da2f56f13af58816/provider/src/main/java/com/fom/rapidx/provider/Media.java#L342">Images
+			</a>: To fetch device photos.	
+			</li>
+			<li>
+			<a href="https://github.com/fiftyonemoon/RapidX/blob/1968d6a1083a11baa9253c21da2f56f13af58816/provider/src/main/java/com/fom/rapidx/provider/Media.java#L341">
+			Videos
+			</a>: To fetch device videos.
+			</li>
+			<li>
+			<a href="https://github.com/fiftyonemoon/RapidX/blob/1968d6a1083a11baa9253c21da2f56f13af58816/provider/src/main/java/com/fom/rapidx/provider/Media.java#L340">
+			Audios
+			</a>: To fetch device audios.
+			</li>
+			</ul>
+		</details>
 	</li>
 	</ul>
 </details>
+
 - [`Provider`](provider/src/main/java/com/fom/rapidx/provider) - Media, Files, Directory, Dialogs.
 - [`Views`](views/src/main/java/com/fom/rapidx/views) - Hybrid RapidViews based on Originals.
 - [`UI`](ui/src/main/java/com/fom/rapidx/ui) - Global Methods.
