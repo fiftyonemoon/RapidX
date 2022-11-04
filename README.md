@@ -92,26 +92,33 @@
 </summary>
 	<ul>
 	<li>
-	<a href="https://github.com/fiftyonemoon/RapidX/blob/main/provider/src/main/java/com/fom/rapidx/provider/RapidConstraintLayout.java">RapidConstraintLayout</a>
+	<a href="https://github.com/fiftyonemoon/RapidX/blob/main/provider/src/main/java/com/fom/rapidx/views/RapidConstraintLayout.java">RapidConstraintLayout</a>
 	</li>
 	<li>
-	<a href="https://github.com/fiftyonemoon/RapidX/blob/main/provider/src/main/java/com/fom/rapidx/provider/RapidRelativeLayout.java">RapidRelativeLayout</a>
+	<a href="https://github.com/fiftyonemoon/RapidX/blob/main/provider/src/main/java/com/fom/rapidx/views/RapidRelativeLayout.java">RapidRelativeLayout</a>
 	</li>
 	<li>
-	<a href="https://github.com/fiftyonemoon/RapidX/blob/main/provider/src/main/java/com/fom/rapidx/provider/RapidLinearLayout.java">RapidLinearLayout</a>
+	<a href="https://github.com/fiftyonemoon/RapidX/blob/main/provider/src/main/java/com/fom/rapidx/views/RapidLinearLayout.java">RapidLinearLayout</a>
 	</li>
 	<li>
-	<a href="https://github.com/fiftyonemoon/RapidX/blob/main/provider/src/main/java/com/fom/rapidx/provider/RapidFrameLayout.java">RapidFrameLayout</a>
+	<a href="https://github.com/fiftyonemoon/RapidX/blob/main/provider/src/main/java/com/fom/rapidx/views/RapidFrameLayout.java">RapidFrameLayout</a>
 	</li>
 	<li>
-	<a href="https://github.com/fiftyonemoon/RapidX/blob/main/provider/src/main/java/com/fom/rapidx/provider/RapidImageView.java">RapidImageView</a>
+	<a href="https://github.com/fiftyonemoon/RapidX/blob/main/provider/src/main/java/com/fom/rapidx/views/RapidImageView.java">RapidImageView</a>
 	</li>
 	</ul>
 </details>
 
-- [`Provider`](provider/src/main/java/com/fom/rapidx/provider) - Media, Files, Directory, Dialogs.
-- [`Views`](views/src/main/java/com/fom/rapidx/views) - Hybrid RapidViews based on Originals.
-- [`UI`](ui/src/main/java/com/fom/rapidx/ui) - Global Methods.
+<details>
+<summary>
+<a href="https://github.com/fiftyonemoon/RapidX/tree/main/provider/src/main/java/com/fom/rapidx/ui">UI</a> : Global Methods.
+</summary>
+	<ul>
+	<li>
+	<a href="https://github.com/fiftyonemoon/RapidX/blob/main/provider/src/main/java/com/fom/rapidx/ui/UI.java">UI</a> : Collection of UI related functions.
+	</li>
+	</ul>
+</details>
 
 ## Implementation
 
