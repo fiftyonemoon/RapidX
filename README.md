@@ -57,6 +57,46 @@
 			</ul>
 		</details>
 	</li>
+	<li>
+		<details>
+			<summary>
+			<a href="https://github.com/fiftyonemoon/RapidX/blob/main/provider/src/main/java/com/fom/rapidx/provider/Files.java">Files</a>
+			</summary>
+			<ul>
+			<li>
+			<a href="https://github.com/fiftyonemoon/RapidX/blob/1968d6a1083a11baa9253c21da2f56f13af58816/provider/src/main/java/com/fom/rapidx/provider/Files.java#L53">Editor
+			</a>: Copy, Move, Delete, Rename and More.	
+			</li>
+			<li>
+			<a href="https://github.com/fiftyonemoon/RapidX/blob/1968d6a1083a11baa9253c21da2f56f13af58816/provider/src/main/java/com/fom/rapidx/provider/Files.java#L228">
+			Utils
+			</a>: Share/Open File, Mimetype, Unique filename generator and More.
+			</li>
+			</ul>
+		</details>
+	</li>
+		<details>
+			<summary>
+			<a href="https://github.com/fiftyonemoon/RapidX/blob/main/provider/src/main/java/com/fom/rapidx/provider/Media.java">Files</a>
+			</summary>
+			<ul>
+			<li>
+			<a href="https://github.com/fiftyonemoon/RapidX/blob/1968d6a1083a11baa9253c21da2f56f13af58816/provider/src/main/java/com/fom/rapidx/provider/Media.java#L342">Images
+			</a>: To fetch device photos.	
+			</li>
+			<li>
+			<a href="https://github.com/fiftyonemoon/RapidX/blob/1968d6a1083a11baa9253c21da2f56f13af58816/provider/src/main/java/com/fom/rapidx/provider/Media.java#L341">
+			Videos
+			</a>: To fetch device videos.
+			</li>
+			<li>
+			<a href="https://github.com/fiftyonemoon/RapidX/blob/1968d6a1083a11baa9253c21da2f56f13af58816/provider/src/main/java/com/fom/rapidx/provider/Media.java#L340">
+			Audios
+			</a>: To fetch device audios.
+			</li>
+			</ul>
+		</details>
+	</li>
 	</ul>
 </details>
 
