@@ -13,8 +13,16 @@
 </summary>
 	<ul>
 	<li>
-		<a href="https://github.com/fiftyonemoon/RapidX/blob/1968d6a1083a11baa9253c21da2f56f13af58816/provider/src/main/java/com/fom/rapidx/provider/Directory.java">Directory
-		</a>: Create folder and files with contentResolver.
+	<details>
+			<summary>
+			<a href="https://github.com/fiftyonemoon/RapidX/blob/main/provider/src/main/java/com/fom/rapidx/provider/Directory.java">Directory</a>
+			</summary>
+			<ul>
+			<li>
+			Create folder and files with contentResolver.
+			</li>
+			</ul>
+		</details>
 	</li>
 	<li>
 		<details>
