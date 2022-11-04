@@ -9,7 +9,7 @@
 ## Contains
 <details>
 <summary>
-<a href="https://github.com/fiftyonemoon/RapidX/tree/main/provider/src/main/java/com/fom/rapidx/provider">Provider</a>
+<a href="https://github.com/fiftyonemoon/RapidX/tree/main/provider/src/main/java/com/fom/rapidx/provider">Provider</a>: Media, Files, Directory, Dialogs.
 </summary>
 	<ul>
 	<li>
