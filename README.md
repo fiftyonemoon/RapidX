@@ -133,7 +133,7 @@ allprojects {
 ```groovy
 //Reduce an app size by excluding unused modules from library.
 
-implementation('com.github.fiftyonemoon:RapidX:1.0.0') {
+implementation('com.github.fiftyonemoon:RapidX:1.0.1') {
     //exclude module: 'provider' (for extarnal use)
     //exclude module: 'views' (for scaling)
     //exclude module: 'ui' (for common use)
