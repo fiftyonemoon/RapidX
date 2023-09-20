@@ -37,6 +37,21 @@ public class Scaler {
     private boolean autoScale;
 
     /**
+     * Default constructor.
+     */
+    public Scaler() {
+
+    }
+
+    /**
+     * Scale with specific width and height.
+     */
+    public Scaler(int width, int height) {
+        this.w1080 = width;
+        this.h1920 = height;
+    }
+
+    /**
      * The view which we have to scale.
      */
     public Scaler view(View view) {

@@ -2,7 +2,6 @@ package com.fom.rapidx.provider;
 
 import android.Manifest;
 import android.content.Context;
-import android.content.pm.PackageManager;
 import android.database.Cursor;
 import android.net.Uri;
 import android.os.Handler;
@@ -11,7 +10,6 @@ import android.provider.MediaStore;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.RequiresPermission;
-import androidx.core.app.ActivityCompat;
 
 import java.io.File;
 import java.io.Serializable;
@@ -112,9 +110,6 @@ public class Media {
     void preconditions() {
         if (context == null) {
             throw new NullPointerException("Context should not be null. to fix add 'with()' method.");
-        } else if (ActivityCompat.checkSelfPermission(context, Manifest.permission.READ_EXTERNAL_STORAGE)
-                != PackageManager.PERMISSION_GRANTED) {
-            throw new SecurityException("Allow READ_EXTERNAL_STORAGE permission to access media.");
         }
     }
 
