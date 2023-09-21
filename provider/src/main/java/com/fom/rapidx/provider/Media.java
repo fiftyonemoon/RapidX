@@ -1,6 +1,5 @@
 package com.fom.rapidx.provider;
 
-import android.Manifest;
 import android.content.Context;
 import android.database.Cursor;
 import android.net.Uri;
@@ -9,7 +8,6 @@ import android.os.Looper;
 import android.provider.MediaStore;
 
 import androidx.annotation.NonNull;
-import androidx.annotation.RequiresPermission;
 
 import java.io.File;
 import java.io.Serializable;
@@ -81,7 +79,6 @@ public class Media {
     /**
      * Observe retrieving process.
      */
-    @RequiresPermission(Manifest.permission.READ_EXTERNAL_STORAGE)
     public void observe(MediaObserver observer) {
 
         preconditions();
