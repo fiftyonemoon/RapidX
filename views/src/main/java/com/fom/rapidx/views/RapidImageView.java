@@ -24,6 +24,9 @@ public class RapidImageView extends androidx.appcompat.widget.AppCompatImageView
     private boolean autoScale;
     private boolean landscapeMode;
 
+    private int customWidth = 1080;
+    private int customHeight = 1920;
+
     public RapidImageView(Context context) {
         super(context);
         initialize(context, null, 0);
@@ -55,6 +58,9 @@ public class RapidImageView extends androidx.appcompat.widget.AppCompatImageView
 
             autoScale = autoScaleFlag == Scaler.AutoScale.parent;
 
+            customWidth = array.getInt(R.styleable.RapidView_customWidth, 1080);
+            customHeight = array.getInt(R.styleable.RapidView_customHeight, 1920);
+
             landscapeMode = context.getResources().getConfiguration().orientation == Configuration.ORIENTATION_LANDSCAPE;
 
             //add this view on global layout listener
@@ -82,7 +88,7 @@ public class RapidImageView extends androidx.appcompat.widget.AppCompatImageView
      * @param view which we have to scale.
      */
     private void scale(View view) {
-        new Scaler()
+        new Scaler(customWidth, customHeight)
                 .view(view)
                 .measureWith(measureWith)
                 .measureMargin(measureMargin)

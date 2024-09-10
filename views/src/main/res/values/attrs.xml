@@ -30,6 +30,10 @@
             <!-- It will measure width and height of view according device height. -->
             <enum name="height" value="-2" />
         </attr>
+        <!-- Set custom width, view width will be resized based on this. default is 1080px. -->
+        <attr name="customWidth" format="integer" />
+        <!-- Set custom height, view height will be resized based on this. default is 1920px. -->
+        <attr name="customHeight" format="integer" />
     </declare-styleable>
 
     <!-- The style set of RapidConstraintLayout.-->
@@ -74,6 +78,8 @@
         <attr name="measurePadding" />
         <attr name="measureWith" />
         <attr name="autoScale" />
+        <attr name="customWidth" />
+        <attr name="customHeight" />
     </declare-styleable>
 
     <!-- The style set for RapidConstraintLayout children.-->

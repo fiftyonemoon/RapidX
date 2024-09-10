@@ -27,6 +27,9 @@ public class RapidView implements ViewTreeObserver.OnGlobalLayoutListener {
     private boolean autoScaleChildren;
     private boolean landscapeMode;
 
+    private int customWidth = 1080;
+    private int customHeight = 1920;
+
     public RapidView(Context context, View view, AttributeSet attrs, int defStyleAttr) {
         this.context = context;
         this.view = view;
@@ -46,6 +49,9 @@ public class RapidView implements ViewTreeObserver.OnGlobalLayoutListener {
             measurePadding = array.getBoolean(R.styleable.RapidView_measurePadding, false);
             withChildren = array.getBoolean(R.styleable.RapidView_scaleChildren, false);
             int autoScaleFlag = array.getInt(R.styleable.RapidView_autoScale, 0);
+
+            customWidth = array.getInt(R.styleable.RapidView_customWidth, 1080);
+            customHeight = array.getInt(R.styleable.RapidView_customHeight, 1920);
 
             autoScaleParent = autoScaleFlag == Scaler.AutoScale.parent
                     || autoScaleFlag == Scaler.AutoScale.all;
@@ -106,7 +112,7 @@ public class RapidView implements ViewTreeObserver.OnGlobalLayoutListener {
      * @param view which we have to scale.
      */
     private void scale(View view, boolean autoScale) {
-        new Scaler()
+        new Scaler(customWidth, customHeight)
                 .view(view)
                 .measureWith(measureWith)
                 .measureMargin(measureMargin)

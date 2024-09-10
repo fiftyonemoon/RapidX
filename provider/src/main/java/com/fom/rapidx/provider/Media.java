@@ -279,11 +279,13 @@ public class Media {
 
         String art = "";
 
-        if (cursorAlbum.moveToFirst()) {
+        if (cursorAlbum != null && cursorAlbum.moveToFirst()) {
             art = getValidColumnValue_String(cursor, MediaStore.Audio.Albums.ALBUM_ART);
         }
 
-        cursorAlbum.close();
+        if (cursorAlbum != null) {
+            cursorAlbum.close();
+        }
 
         return art;
     }
@@ -292,13 +294,17 @@ public class Media {
      * Sort media list by name.
      */
     private void sort(ArrayList<MediaObject> list) {
-        Collections.sort(list, (o1, o2) -> {
-            boolean isNull = o1 == null || o1.name == null
-                    || o2 == null || o2.name == null;
-            return isNull
-                    ? -1
-                    : o1.name.compareTo(o2.name);
-        });
+        try {
+            Collections.sort(list, (o1, o2) -> {
+                boolean isNull = o1 == null || o1.name == null
+                        || o2 == null || o2.name == null;
+                return isNull
+                        ? -1
+                        : o1.name.compareTo(o2.name);
+            });
+        } catch (Exception e) {
+            //
+        }
     }
 
     /**
