@@ -43,6 +43,8 @@
         <attr name="measurePadding" />
         <attr name="measureWith" />
         <attr name="autoScale" />
+        <attr name="customWidth" />
+        <attr name="customHeight" />
     </declare-styleable>
 
     <!-- The style set of RapidFrameLayout.-->
@@ -52,6 +54,8 @@
         <attr name="measurePadding" />
         <attr name="measureWith" />
         <attr name="autoScale" />
+        <attr name="customWidth" />
+        <attr name="customHeight" />
     </declare-styleable>
 
     <!-- The style set of RapidLinearLayout.-->
@@ -61,6 +65,8 @@
         <attr name="measurePadding" />
         <attr name="measureWith" />
         <attr name="autoScale" />
+        <attr name="customWidth" />
+        <attr name="customHeight" />
     </declare-styleable>
 
     <!-- The style set of RapidRelativeLayout.-->
@@ -70,6 +76,8 @@
         <attr name="measurePadding" />
         <attr name="measureWith" />
         <attr name="autoScale" />
+        <attr name="customWidth" />
+        <attr name="customHeight" />
     </declare-styleable>
 
     <!-- The style set of RapidImageView.-->
